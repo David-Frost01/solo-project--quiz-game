@@ -1,7 +1,7 @@
 import React from "react"
 import Choices from "./Choices"  
 
-export default function question(props) {
+export default function Question(props) {
     const {question, answerObj, guessesSubmitted, correct_answer} = props
     const [selectedChoice, setSelectedChoice] = React.useState(answerObj)
     
